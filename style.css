@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./brandi/themes/brandi/img/banner.jpg);
+    height: 657px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 10px;
+    
+}
+nav ul li a{
+    float: left;
+    text-decoration: none;
+}
