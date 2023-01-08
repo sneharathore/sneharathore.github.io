@@ -6,6 +6,7 @@
 }
 html{
     font-size: 55%;
+    overflow-x: hidden;
 }
 body{
     width: 100%;
@@ -20,8 +21,7 @@ body{
 #menu-bars{
     position: fixed;
     top:1rem; right: 1rem;
-    z-index: 10000;
-    background:var(--main-color);
+    z-index: 10000;   
     color:#fff;
     border-radius: .5rem;
     padding:1rem 1.5rem;
@@ -462,7 +462,7 @@ section {
 .contact-info-icon {
   height: 70px;
   width: 70px;
-  background-color: #000;
+  background-color: #000e25;
   text-align: center;
   border-radius: 50%;
 }
@@ -534,7 +534,7 @@ section {
 
 .contact-form .input-box input:focus ~ span,
 .contact-form .input-box textarea:focus ~ span{
-  color: #e91e63;
+  color: #158dc7;
   font-size: 12px;
   transform: translateY(-20px);
 }
@@ -579,6 +579,11 @@ section {
 }
 footer {
   margin-top: -15rem;
+}
+footer p {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: -7rem;
 }
 /*contact section css end*/
 /* media queries  */
@@ -646,11 +651,9 @@ footer {
 }
 @media (max-width: 600px){
   body{
-    overflow: hidden;
+    overflow-x: hidden;
   }
-  .navbar{
-    width: 58%;
-  }
+ 
   .text-box {
     left: 6rem;
 }
