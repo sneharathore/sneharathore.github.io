@@ -10,8 +10,6 @@ html{
 }
 body{
   width: 100%;
-  text-transform: capitalize;
-  
 }
 #menu-bars{
   position: fixed;
@@ -111,7 +109,7 @@ body{
   font-size: 5rem;
   font-weight: 600;
 }
-.text-box h1{
+.text-box h2{
   font-size: 17rem;
   line-height: 17rem;
   margin-left: 0;
@@ -208,7 +206,7 @@ text-align: justify;
   flex: 0 0 75rem;
 }
 
-.row-1 .a-content h3 {
+.row-1 .a-content h1 {
   color: #158dc7;
   font-size: 3.5rem;
   margin-bottom: 2rem; 
@@ -422,21 +420,6 @@ padding-left: 20px;
 padding-right: 20px;
 }
 
-.section-header {
-margin-bottom: 50px;
-text-align: center;
-}
-
-.section-header h2 {
-color: #FFF;
-font-weight: bold;
-font-size: 3em;
-margin-bottom: 20px;
-}
-
-.section-header p {
-color: #FFF;
-}
 
 .row  {
 display: flex;
@@ -674,7 +657,7 @@ body{
 .text-box {
   left: 6rem;
 }
-.text-box h1 {
+.text-box h2 {
 font-size: 12rem;
 }
 .text-box h3{
@@ -706,7 +689,7 @@ font-size: 2.5rem;
   font-size: 5rem;
   font-weight: 600;
 }
-.text-box h1{
+.text-box h2{
   font-size: 10rem;
   line-height: 17rem;
   margin-left: 0;
