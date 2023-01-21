@@ -290,9 +290,11 @@ height: auto;
 }
 
 .skill-container .row-2 .skills .progress:nth-child(4) .bar span{
+  width:70%;
+}
+.skill-container .row-2 .skills .progress:nth-child(5) .bar span{
   width:85%;
 }
-
 .skill-container .row-2 .box-container{
   flex:1 1 40rem;
   display: flex;
@@ -318,6 +320,7 @@ height: auto;
   font-size: 1.7rem;
   padding-top: .5rem;
 }
+
 /*skill section end*/
 
 /*project section css start*/
@@ -649,11 +652,15 @@ font-size: 2.5rem;
 .skill-container .row-2 .skills{
   margin-right: 9rem;
 }
+#myCanvasContainer > canvas {
+  pointer-events: none;
+  width: 100%;
+}
 .project img{
   width: 80%;
   height: 360px;
 }
-}
+
 @media (max-width: 380px) {
 .navbar .logo a{
   font-size: 27px;
